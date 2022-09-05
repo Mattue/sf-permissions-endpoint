@@ -1,7 +1,13 @@
 # sf-permissions-endpoint
 Salesforce custom REST API endpoint to retrieve permission information about salesforce user
 
-Request POST body
+Request URI
+
+```
+POST /perms-api/v1/user-permissions?id=userId
+```
+
+Request body
 
 ```
 {
